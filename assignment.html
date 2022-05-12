@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Welcome Page</title>
+    <style>
+        #header {
+            background-color: #3a5191;
+            color: aliceblue;
+        }
+        
+        #mySidenav a {
+            position: absolute;
+            left: -80px;
+            transition: 0.3s;
+            padding: 20px;
+            width: 150px;
+            text-decoration: none;
+            font-size: 10px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        #mySidenav a:hover {
+            left: 0;
+        }
+        
+        #about {
+            top: 140px;
+            background-color: #04AA6D;
+        }
+        
+        #assign {
+            top: 200px;
+            background-color: #2196F3;
+        }
+        
+        #grades {
+            top: 260px;
+            background-color: #f44336;
+        }
+        
+        #home {
+            top: 320px;
+            background-color: #555
+        }
+    </style>
+</head>
+
+<body background="">
+    <div id="mySidenav" class="sidenav">
+        <a href="about.html" id="about">About</a>
+        <a href="assignment.html" id="assign">Assignment Assigned</a>
+        <a href="#" id="grades">View Grades</a>
+        <a href="index.html" id="home">Logout</a>
+    </div>
+    <center>
+        <div id="header">
+            <h1>Student Programming Assignment Checking Tool</h1>
+        </div>
+        <br><br>
+        <p>No assignments assigned so far!</p>
+    </center>
+</body>
+
+</html>
